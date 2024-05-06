@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(70, 70, 70);
+            margin: 0px;       
+        }
+
+        header {
+            background-color: aliceblue;
+            border-radius: 5px 40px;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.452);
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+        
+        nav {
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 134);
+            font-weight: bold;
+            margin: 0px 30px 0px 30px;
+        }
+
+         #assuntos {
+            font-weight: bolder;
+            text-align: center;
+            color: rgb(1, 1, 102);
+            background-image: linear-gradient(to bottom, rgb(255, 199, 44), rgb(255, 137, 3));
+            text-shadow: 1px 1px 5px white;
+            font-size: 28px;
+            border-radius: 10px;
+        
+        }
+
+        section {
+            background-color: lightgray;
+            border-radius: 40px 5px;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.493);
+        }
+
+        article > aside {
+            color: rgb(121, 121, 121);
+            text-align: right;
+
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            padding: 3px;
+            text-align: center;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Denver Nuggets vai ser campeão de novo!</h2>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum necessitatibus culpa nulla magnam, nam accusantium minima ab? Fugit nisi accusamus architecto ad illo illum, earum maxime enim. Magnam, alias temporibus!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Jão</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
